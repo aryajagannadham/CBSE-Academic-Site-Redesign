@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Inknut+Antiqua&family=Markazi+Text:wght@400;500;600;700&family=Noto+Serif+Display&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat&family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Reem+Kufi+Fun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+
+body {
+  margin: 0px;
+  padding: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 0.5px solid rgb(200, 200, 200);
+}
+
+.sitename {
+  color: rgb(215, 215, 215);
+  font-family: Reem Kufi Fun;
+  font-size: 25px;
+  font-weight: 200;
+  width: 380px;
+  line-height: 35px;
+  margin: 15px 15px 15px 0px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40px;
+  background-color: rgb(20, 20, 20);
+  border-bottom: 0.5px solid rgb(200, 200, 200);
+}
+
+nav .link {
+  font-family: Montserrat;
+  font-size: 15px;
+  margin: 10px;
+  color: rgb(215, 215, 215);
+  cursor: pointer;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/Images/article-wallpaper.png);
+  background-size: cover;
+  background-position: right;
+  width: 100vw;
+  height: 600px;
+}
+
+.article .content {
+  height: 460px;
+  width: 600px;
+  margin: 80px 180px 60px 0px;
+}
+
+.article .content .description {
+  margin: 10px;
+  font-family: Gloock;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+}
+
+.learn-more {
+  margin: 40px 10px 0px 10px;
+  padding: 10px 15px 10px 15px;
+  font-family: Reem Kufi Fun;
+  font-size: 20px;
+  font-weight: 100;
+  border: 1.5px solid rgb(200, 200, 200);
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.learn-more:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(176, 162, 106);
+  border: 1.5px solid rgb(176, 162, 106);
+}
+
+.announcements {
+  padding: 40px;
+  background-color: rgb(220, 220, 220);
+}
+
+.announcement-box-container {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.announcement-box {
+  margin: 50px 0px 50px 0px;
+  height: 350px;
+  width: 300px;
+  box-shadow: 0px 0px 15px rgb(200, 200, 200);
+}
+
+.announcement-image {
+  height: 200px;
+  background-size: cover;
+}
+
+.announcement-box-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 18px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+}
+
+.announcement-text {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+  color: rgb(50, 50, 50);
+  font-family: Prociono;
+}
+
+.announcement-button {
+  margin: 5px;
+  position: absolute;
+  font-size: 20px; 
+  height: 40px; 
+  width: 40px; 
+  border-radius: 20px; 
+  border: none; 
+  color: white; 
+  background-color: black;
+  transition: 0.15s;
+  cursor: pointer;
+}
+.announcement-button:hover {opacity: 0.7;}
+
+.nep2020 {
+  padding: 50px 0px 50px 0px;
+  background-image: url(/Images/nep2020.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-size: cover;
+  width: 100vw;
+  height: 600px;
+  box-sizing: border-box;
+}
+
+.nep2020-title {
+  margin: 50px 0px 50px 0px;
+  font-size: 200px;
+  line-height: 200px;
+  color: rgb(255, 255, 255);
+  font-family: Gloock;
+  text-shadow: 0px 0px 15px rgb(50, 50, 50);
+  text-decoration: underline rgb(255, 90, 90);
+}
+
+.nep2020-description {
+  margin: 70px 0px 0px 0px;
+  font-family: Poppins;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 50px;
+  text-shadow: 0px 0px 15px rgb(30, 30, 30);
+}
+
+.nep2020-button {
+  margin: 40px 10px 0px 10px;
+  padding: 10px 15px 10px 15px;
+  font-family: Reem Kufi Fun;
+  font-size: 20px;
+  font-weight: 100;
+  border: 1.5px solid rgb(200, 200, 200);
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nep2020-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 90, 90);
+  border: 1.5px solid rgb(255, 90, 90);
+}
