@@ -55,7 +55,7 @@ nav .link {
 .article {
   display: flex;
   flex-direction: column;
-  background-image: url(/Images/article-wallpaper.png);
+  background-image: url(Images/article-wallpaper.png);
   background-size: cover;
   background-position: right;
   width: 100vw;
@@ -153,7 +153,7 @@ nav .link {
 
 .nep2020 {
   padding: 50px 0px 50px 0px;
-  background-image: url(/Images/nep2020.png);
+  background-image: url(Images/nep2020.png);
   display: flex;
   flex-direction: row;
   justify-content: center;
